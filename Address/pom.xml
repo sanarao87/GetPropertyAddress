@@ -12,7 +12,7 @@
 	<groupId>com.property</groupId>
 	<artifactId>Address</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Address</name>
 	<description>Project for Japanese addresses and property information</description>
 	<url />

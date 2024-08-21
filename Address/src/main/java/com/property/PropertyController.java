@@ -105,4 +105,9 @@ public class PropertyController {
 		List<Property> properties = propertyRepository.findAll();
 		return ResponseEntity.status(HttpStatus.OK).body(properties);
 	}
+
+	@GetMapping("/")
+	public String getHello() {
+		return "Hello from AWS Cloud GetProperties";
+	}
 }
